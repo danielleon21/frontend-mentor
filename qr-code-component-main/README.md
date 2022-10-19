@@ -5,7 +5,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,14 +15,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot
-
-![](https://prnt.sc/mt-iu3k_-ZdS)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/danielleon-dev/frontend-mentor/tree/main/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://zippy-praline-60f104.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/danielleon-dev/frontend-mentor/tree/main/qr-code-component-main)
+- Live Site URL: [Live Site URL](https://zippy-praline-60f104.netlify.app/)
 
 ## My process
 
@@ -36,7 +31,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Daniel](https://daniel-leondev.netlify.app/)
+- Website - [Portfolio](https://daniel-leondev.netlify.app/)
 - Frontend Mentor - [@Danml99](https://www.frontendmentor.io/profile/Danml99)
 - Twitter - [@daniel_dev23](https://twitter.com/daniel_dev23)
 
