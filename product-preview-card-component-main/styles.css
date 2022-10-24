@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  --darkCyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --veryDarkBlue: hsl(158, 65%, 18%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --primaryFont: "Fraunces", serif;
+  --secundaryFont: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.product {
+  border: 1px solid var(--cream);
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+@media (min-width: 1440px) {
+  .product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    margin: 15% auto;
+    border-radius: 1rem;
+  }
+}
+
+.product__img {
+  background-image: url(./images/image-product-mobile.jpg);
+  width: 100%;
+  height: 32rem;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1440px) {
+  .product__img {
+    background-image: url(./images/image-product-desktop.jpg);
+    background-position: center center;
+  }
+}
+
+.product__content {
+  padding: 1rem 2rem;
+  background-color: var(--white);
+  font-family: var(--secundaryFont);
+}
+
+.product__title {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: var(--darkGrayishBlue);
+  font-weight: normal;
+}
+
+.product__name {
+  font-size: 2.7rem;
+  font-family: var(--primaryFont);
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.product__description {
+  margin: 1rem 0;
+  color: var(--darkGrayishBlue);
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.product__price {
+  font-family: var(--primaryFont);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  color: var(--darkCyan);
+}
+
+.product__price--normal {
+  font-size: 1.1rem;
+  color: var(--darkGrayishBlue);
+  text-decoration: line-through;
+  font-weight: normal;
+}
+
+.product__btn {
+  width: 100%;
+  padding: 1rem;
+  color: var(--white);
+  background-color: var(--darkCyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  transition: background-color 300ms ease;
+  margin: 1rem 0;
+}
+
+.product__btn:hover {
+  background-color: var(--veryDarkBlue);
+  cursor: pointer;
+}
+
+.attribution {
+  margin: 2rem;
+  font-size: 1.4rem;
+}
+
+.attribution a {
+  color: var(--darkCyan);
+}
